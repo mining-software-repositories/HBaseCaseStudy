@@ -17,6 +17,8 @@ Versions  | Units   | Exceptions| LOC     | CBLOC   | Rules    | Passing Rules
 2.2.0     | 371     | 11        |49686.0  | 457.0   | 16       | 12
 2.2.3     | 377     | 11        |50123.0  | 462.0   | 16       | 12
 
+More details in [ArCatch_Reports](https://github.com/juarezmeneses/HBaseCaseStudy/tree/master/arcatchreports)
+
 ### All versions are available in:
 
 * [HBase_1.0.0](https://github.com/apache/hbase/releases/tag/rel%2F1.0.0)
