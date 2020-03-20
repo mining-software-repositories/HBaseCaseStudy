@@ -1,6 +1,11 @@
 # HBaseCaseStudy
 
+Tool: [ArCatch](https://github.com/EvidenSE/ArCatch)
+
 Analyzed Project: [HBase](https://github.com/apache/hbase/tree/master/hbase-common)
+
+## Goal:
+Static-architecture conformance checking of exception handling design on the HBase project.
 
 ## Summary
 
