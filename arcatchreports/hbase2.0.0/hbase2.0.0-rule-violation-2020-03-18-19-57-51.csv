@@ -1,0 +1,690 @@
+Rule Id;Violation Kind;Violating Unit;Violation Label;First Unit;Second Unit
+ADR15;DRIFT;org.apache.hadoop.hbase.util.Methods;NoA > 15;none;none
+ADR15;DRIFT;org.apache.hadoop.hbase.security.UserProvider;NoA > 15;none;none
+ADR15;DRIFT;org.apache.hadoop.hbase.types.OrderedInt64;NoA > 15;none;none
+ADR15;DRIFT;org.apache.hadoop.hbase.nio.MultiByteBuff;NoA > 15;none;none
+ADR15;DRIFT;org.apache.hadoop.hbase.CompoundConfiguration$ImmutableConfWrapper;NoA > 15;none;none
+ADR15;DRIFT;org.apache.hadoop.hbase.PrivateCellUtil$LastOnRowColByteBufferExtendedCell;NoA > 15;none;none
+ADR15;DRIFT;org.apache.hadoop.hbase.trace.HBaseHTraceConfiguration;NoA > 15;none;none
+ADR15;DRIFT;org.apache.hadoop.hbase.util.SoftObjectPool$SoftObjectReference;NoA > 15;none;none
+ADR15;DRIFT;org.apache.hadoop.hbase.types.StructBuilder;NoA > 15;none;none
+ADR15;DRIFT;org.apache.hadoop.hbase.AsyncConsoleAppender;NoA > 15;none;none
+ADR15;DRIFT;org.apache.hadoop.hbase.util.RetryCounterFactory;NoA > 15;none;none
+ADR15;DRIFT;org.apache.hadoop.hbase.util.Threads$PrintThreadInfoLazyHolder;NoA > 15;none;none
+ADR15;DRIFT;org.apache.hadoop.hbase.util.MD5Hash;NoA > 15;none;none
+ADR15;DRIFT;org.apache.hadoop.hbase.rsgroup.RSGroupInfo;NoA > 15;none;none
+ADR15;DRIFT;org.apache.hadoop.hbase.io.encoding.CompressionState;NoA > 15;none;none
+ADR15;DRIFT;org.apache.hadoop.hbase.CompoundConfiguration;NoA > 15;none;none
+ADR15;DRIFT;org.apache.hadoop.hbase.util.AvlUtil;NoA > 15;none;none
+ADR15;DRIFT;org.apache.hadoop.hbase.exceptions.DeserializationException;NoA > 15;none;none
+ADR15;DRIFT;org.apache.hadoop.hbase.ChoreService$ChoreServiceThreadFactory;NoA > 15;none;none
+ADR15;DRIFT;org.apache.hadoop.hbase.io.encoding.RowIndexCodecV1$RowIndexEncodingState;NoA > 15;none;none
+ADR15;DRIFT;org.apache.hadoop.hbase.util.DefaultEnvironmentEdge;NoA > 15;none;none
+ADR15;DRIFT;org.apache.hadoop.hbase.io.encoding.DiffKeyDeltaEncoder$DiffCompressionState;NoA > 15;none;none
+ADR15;DRIFT;org.apache.hadoop.hbase.util.Pair;NoA > 15;none;none
+ADR15;DRIFT;org.apache.hadoop.hbase.io.encoding.RowIndexSeekerV1$SeekerState;NoA > 15;none;none
+ADR15;DRIFT;org.apache.hadoop.hbase.util.CommonFSUtils;NoA > 15;none;none
+ADR15;DRIFT;org.apache.hadoop.hbase.net.Address;NoA > 15;none;none
+ADR15;DRIFT;org.apache.hadoop.hbase.codec.CellCodecWithTags$CellEncoder;NoA > 15;none;none
+ADR15;DRIFT;org.apache.hadoop.hbase.exceptions.UnexpectedStateException;NoA > 15;none;none
+ADR15;DRIFT;org.apache.hadoop.hbase.PrivateCellUtil$ValueAndTagRewriteCell;NoA > 15;none;none
+ADR15;DRIFT;org.apache.hadoop.hbase.codec.CellCodec$CellDecoder;NoA > 15;none;none
+ADR15;DRIFT;org.apache.hadoop.hbase.io.encoding.EncoderBufferTooSmallException;NoA > 15;none;none
+ADR15;DRIFT;org.apache.hadoop.hbase.types.RawByte;NoA > 15;none;none
+ADR15;DRIFT;org.apache.hadoop.hbase.io.crypto.aes.CommonsCryptoAESDecryptor;NoA > 15;none;none
+ADR15;DRIFT;org.apache.hadoop.hbase.util.AbstractPositionedByteRange;NoA > 15;none;none
+ADR15;DRIFT;org.apache.hadoop.hbase.util.Counter$Container;NoA > 15;none;none
+ADR15;DRIFT;org.apache.hadoop.hbase.util.DynamicClassLoader;NoA > 15;none;none
+ADR15;DRIFT;org.apache.hadoop.hbase.codec.BaseDecoder$PBIS;NoA > 15;none;none
+ADR15;DRIFT;org.apache.hadoop.hbase.util.Strings;NoA > 15;none;none
+ADR15;DRIFT;org.apache.hadoop.hbase.IndividualBytesFieldCellBuilder;NoA > 15;none;none
+ADR15;DRIFT;org.apache.hadoop.hbase.io.crypto.DefaultCipherProvider;NoA > 15;none;none
+ADR15;DRIFT;org.apache.hadoop.hbase.util.JVM;NoA > 15;none;none
+ADR15;DRIFT;org.apache.hadoop.hbase.types.OrderedNumeric;NoA > 15;none;none
+ADR15;DRIFT;org.apache.hadoop.hbase.util.ConcatenatedLists;NoA > 15;none;none
+ADR15;DRIFT;org.apache.hadoop.hbase.PrivateCellUtil$FirstOnRowDeleteFamilyCell;NoA > 15;none;none
+ADR15;DRIFT;org.apache.hadoop.hbase.codec.KeyValueCodecWithTags$KeyValueEncoder;NoA > 15;none;none
+ADR15;DRIFT;org.apache.hadoop.hbase.io.encoding.FastDiffDeltaEncoder$FastDiffCompressionState;NoA > 15;none;none
+ADR15;DRIFT;org.apache.hadoop.hbase.util.ByteRangeUtils;NoA > 15;none;none
+ADR15;DRIFT;org.apache.hadoop.hbase.types.CopyOnWriteArrayMap$ArrayKeyIterator;NoA > 15;none;none
+ADR15;DRIFT;org.apache.hadoop.hbase.types.Union4;NoA > 15;none;none
+ADR15;DRIFT;org.apache.hadoop.hbase.util.WeakObjectPool;NoA > 15;none;none
+ADR15;DRIFT;org.apache.hadoop.hbase.types.Union2;NoA > 15;none;none
+ADR15;DRIFT;org.apache.hadoop.hbase.types.Union3;NoA > 15;none;none
+ADR15;DRIFT;org.apache.hadoop.hbase.io.compress.Compression$FinishOnFlushCompressionStream;NoA > 15;none;none
+ADR15;DRIFT;org.apache.hadoop.hbase.types.RawBytesFixedLength;NoA > 15;none;none
+ADR15;DRIFT;org.apache.hadoop.hbase.util.SimpleMutableByteRange;NoA > 15;none;none
+ADR15;DRIFT;org.apache.hadoop.hbase.io.crypto.aes.CommonsCryptoAESEncryptor;NoA > 15;none;none
+ADR15;DRIFT;org.apache.hadoop.hbase.io.encoding.RowIndexEncoderV1;NoA > 15;none;none
+ADR15;DRIFT;org.apache.hadoop.hbase.io.compress.ReusableStreamGzipCodec$ReusableGzipOutputStream;NoA > 15;none;none
+ADR15;DRIFT;org.apache.hadoop.hbase.io.encoding.AbstractDataBlockEncoder;NoA > 15;none;none
+ADR15;DRIFT;org.apache.hadoop.hbase.io.ImmutableBytesWritable$Comparator;NoA > 15;none;none
+ADR15;DRIFT;org.apache.hadoop.hbase.AuthUtil;NoA > 15;none;none
+ADR15;DRIFT;org.apache.hadoop.hbase.util.JSONBean;NoA > 15;none;none
+ADR15;DRIFT;org.apache.hadoop.hbase.types.PBType;NoA > 15;none;none
+ADR15;DRIFT;org.apache.hadoop.hbase.ByteBufferTag;NoA > 15;none;none
+ADR15;DRIFT;org.apache.hadoop.hbase.util.MurmurHash3;NoA > 15;none;none
+ADR15;DRIFT;org.apache.hadoop.hbase.io.ByteArrayOutputStream;NoA > 15;none;none
+ADR15;DRIFT;org.apache.hadoop.hbase.util.RetryCounter$ExponentialBackoffPolicy;NoA > 15;none;none
+ADR15;DRIFT;org.apache.hadoop.hbase.util.Hash;NoA > 15;none;none
+ADR15;DRIFT;org.apache.hadoop.hbase.io.util.LRUDictionary$BidirectionalLRUMap$Node;NoA > 15;none;none
+ADR15;DRIFT;org.apache.hadoop.hbase.types.CopyOnWriteArrayMap$ArrayValueCollection;NoA > 15;none;none
+ADR15;DRIFT;org.apache.hadoop.hbase.util.MurmurHash;NoA > 15;none;none
+ADR15;DRIFT;org.apache.hadoop.hbase.io.ByteBufferPool;NoA > 15;none;none
+ADR15;DRIFT;org.apache.hadoop.hbase.util.PairOfSameType;NoA > 15;none;none
+ADR15;DRIFT;org.apache.hadoop.hbase.types.CopyOnWriteArrayMap$COWEntry;NoA > 15;none;none
+ADR15;DRIFT;org.apache.hadoop.hbase.types.CopyOnWriteArrayMap$ArrayValueIterator;NoA > 15;none;none
+ADR15;DRIFT;org.apache.hadoop.hbase.util.ObjectIntPair;NoA > 15;none;none
+ADR15;DRIFT;org.apache.hadoop.hbase.io.ByteBufferListOutputStream;NoA > 15;none;none
+ADR15;DRIFT;org.apache.hadoop.hbase.io.crypto.aes.CommonsCryptoAES;NoA > 15;none;none
+ADR15;DRIFT;org.apache.hadoop.hbase.io.util.LRUDictionary$BidirectionalLRUMap;NoA > 15;none;none
+ADR15;DRIFT;org.apache.hadoop.hbase.types.OrderedBlobVar;NoA > 15;none;none
+ADR15;DRIFT;org.apache.hadoop.hbase.io.crypto.aes.AESEncryptor;NoA > 15;none;none
+ADR15;DRIFT;org.apache.hadoop.hbase.io.util.LRUDictionary$BidirectionalLRUMap$ByteArrayBackedNode;NoA > 15;none;none
+ADR15;DRIFT;org.apache.hadoop.hbase.types.RawDouble;NoA > 15;none;none
+ADR15;DRIFT;org.apache.hadoop.hbase.io.crypto.aes.CryptoAES;NoA > 15;none;none
+ADR15;DRIFT;org.apache.hadoop.hbase.TagUtil;NoA > 15;none;none
+ADR15;DRIFT;org.apache.hadoop.hbase.types.FixedLengthWrapper;NoA > 15;none;none
+ADR15;DRIFT;org.apache.hadoop.hbase.util.ClassSize$UnsafeLayout;NoA > 15;none;none
+ADR15;DRIFT;org.apache.hadoop.hbase.util.UnsafeAccess;NoA > 15;none;none
+ADR15;DRIFT;org.apache.hadoop.hbase.codec.CellCodecWithTags$CellDecoder;NoA > 15;none;none
+ADR15;DRIFT;org.apache.hadoop.hbase.CellBuilderFactory;NoA > 15;none;none
+ADR15;DRIFT;org.apache.hadoop.hbase.util.BoundedCompletionService$QueueingFuture;NoA > 15;none;none
+ADR15;DRIFT;org.apache.hadoop.hbase.types.OrderedString;NoA > 15;none;none
+ADR15;DRIFT;org.apache.hadoop.hbase.ExtendedCellBuilderFactory;NoA > 15;none;none
+ADR15;DRIFT;org.apache.hadoop.hbase.JitterScheduledThreadPoolExecutorImpl$JitteredRunnableScheduledFuture;NoA > 15;none;none
+ADR15;DRIFT;org.apache.hadoop.hbase.util.AvlUtil$AvlTreeIterator;NoA > 15;none;none
+ADR15;DRIFT;org.apache.hadoop.hbase.util.CollectionUtils;NoA > 15;none;none
+ADR15;DRIFT;org.apache.hadoop.hbase.io.compress.Compression;NoA > 15;none;none
+ADR15;DRIFT;org.apache.hadoop.hbase.NoTagsByteBufferKeyValue;NoA > 15;none;none
+ADR15;DRIFT;org.apache.hadoop.hbase.HBaseInterfaceAudience;NoA > 15;none;none
+ADR15;DRIFT;org.apache.hadoop.hbase.io.ByteBufferInputStream;NoA > 15;none;none
+ADR15;DRIFT;org.apache.hadoop.hbase.NamespaceDescriptor$Builder;NoA > 15;none;none
+ADR15;DRIFT;org.apache.hadoop.hbase.codec.BaseDecoder;NoA > 15;none;none
+ADR15;DRIFT;org.apache.hadoop.hbase.KeyValue$KVComparator;NoA > 15;none;none
+ADR15;DRIFT;org.apache.hadoop.hbase.util.SimplePositionedByteRange;NoA > 15;none;none
+ADR15;DRIFT;org.apache.hadoop.hbase.codec.KeyValueCodec$KeyValueDecoder;NoA > 15;none;none
+ADR15;DRIFT;org.apache.hadoop.hbase.util.AtomicUtils;NoA > 15;none;none
+ADR15;DRIFT;org.apache.hadoop.hbase.HBaseConfiguration;NoA > 15;none;none
+ADR15;DRIFT;org.apache.hadoop.hbase.types.RawLong;NoA > 15;none;none
+ADR15;DRIFT;org.apache.hadoop.hbase.NoTagsKeyValue;NoA > 15;none;none
+ADR15;DRIFT;org.apache.hadoop.hbase.util.BoundedCompletionService;NoA > 15;none;none
+ADR15;DRIFT;org.apache.hadoop.hbase.util.ClassSize$MemoryLayout;NoA > 15;none;none
+ADR15;DRIFT;org.apache.hadoop.hbase.HBaseIOException;NoA > 15;none;none
+ADR15;DRIFT;org.apache.hadoop.hbase.JitterScheduledThreadPoolExecutorImpl;NoA > 15;none;none
+ADR15;DRIFT;org.apache.hadoop.hbase.PrivateCellUtil$LastOnRowByteBufferExtendedCell;NoA > 15;none;none
+ADR15;DRIFT;org.apache.hadoop.hbase.util.KeyLocker;NoA > 15;none;none
+ADR15;DRIFT;org.apache.hadoop.hbase.io.encoding.HFileBlockDefaultDecodingContext;NoA > 15;none;none
+ADR15;DRIFT;org.apache.hadoop.hbase.io.util.LRUDictionary$BidirectionalLRUMap$ByteBufferBackedNode;NoA > 15;none;none
+ADR15;DRIFT;org.apache.hadoop.hbase.PrivateCellUtil$EmptyCell;NoA > 15;none;none
+ADR15;DRIFT;org.apache.hadoop.hbase.io.TimeRange;NoA > 15;none;none
+ADR15;DRIFT;org.apache.hadoop.hbase.util.JSONMetricUtil;NoA > 15;none;none
+ADR15;DRIFT;org.apache.hadoop.hbase.ByteBufferKeyOnlyKeyValue;NoA > 15;none;none
+ADR15;DRIFT;org.apache.hadoop.hbase.io.crypto.Cipher;NoA > 15;none;none
+ADR15;DRIFT;org.apache.hadoop.hbase.security.User;NoA > 15;none;none
+ADR15;DRIFT;org.apache.hadoop.hbase.PrivateCellUtil$FirstOnRowColTSByteBufferExtendedCell;NoA > 15;none;none
+ADR15;DRIFT;org.apache.hadoop.hbase.ArrayBackedTag;NoA > 15;none;none
+ADR15;DRIFT;org.apache.hadoop.hbase.types.CopyOnWriteArrayMap;NoA > 15;none;none
+ADR15;DRIFT;org.apache.hadoop.hbase.types.RawFloat;NoA > 15;none;none
+ADR15;DRIFT;org.apache.hadoop.hbase.exceptions.TimeoutIOException;NoA > 15;none;none
+ADR15;DRIFT;org.apache.hadoop.hbase.io.ByteBufferWriterDataOutputStream;NoA > 15;none;none
+ADR15;DRIFT;org.apache.hadoop.hbase.PrivateCellUtil$LastOnRowColCell;NoA > 15;none;none
+ADR15;DRIFT;org.apache.hadoop.hbase.PrivateCellUtil$FirstOnRowColTSCell;NoA > 15;none;none
+ADR15;DRIFT;org.apache.hadoop.hbase.types.OrderedFloat64;NoA > 15;none;none
+ADR15;DRIFT;org.apache.hadoop.hbase.util.AvlUtil$AvlNode;NoA > 15;none;none
+ADR15;DRIFT;org.apache.hadoop.hbase.io.crypto.aes.AES;NoA > 15;none;none
+ADR15;DRIFT;org.apache.hadoop.hbase.codec.KeyValueCodec;NoA > 15;none;none
+ADR15;DRIFT;org.apache.hadoop.hbase.util.Threads;NoA > 15;none;none
+ADR15;DRIFT;org.apache.hadoop.hbase.SizeCachedNoTagsKeyValue;NoA > 15;none;none
+ADR15;DRIFT;org.apache.hadoop.hbase.io.ByteBufferWriterOutputStream;NoA > 15;none;none
+ADR15;DRIFT;org.apache.hadoop.hbase.util.HashKey;NoA > 15;none;none
+ADR15;DRIFT;org.apache.hadoop.hbase.util.JenkinsHash;NoA > 15;none;none
+ADR15;DRIFT;org.apache.hadoop.hbase.types.Struct;NoA > 15;none;none
+ADR15;DRIFT;org.apache.hadoop.hbase.trace.SpanReceiverHost;NoA > 15;none;none
+ADR15;DRIFT;org.apache.hadoop.hbase.io.encoding.BufferedDataBlockEncoder$BufferedEncodedSeeker;NoA > 15;none;none
+ADR15;DRIFT;org.apache.hadoop.hbase.io.ByteBufferOutputStream;NoA > 15;none;none
+ADR15;DRIFT;org.apache.hadoop.hbase.types.RawBytes;NoA > 15;none;none
+ADR15;DRIFT;org.apache.hadoop.hbase.CellUtil;NoA > 15;none;none
+ADR15;DRIFT;org.apache.hadoop.hbase.PrivateCellUtil$FirstOnRowColCell;NoA > 15;none;none
+ADR15;DRIFT;org.apache.hadoop.hbase.util.RowBloomHashKey;NoA > 15;none;none
+ADR15;DRIFT;org.apache.hadoop.hbase.io.crypto.aes.AESDecryptor;NoA > 15;none;none
+ADR15;DRIFT;org.apache.hadoop.hbase.zookeeper.ZKConfig;NoA > 15;none;none
+ADR15;DRIFT;org.apache.hadoop.hbase.codec.KeyValueCodec$KeyValueEncoder;NoA > 15;none;none
+ADR15;DRIFT;org.apache.hadoop.hbase.security.User$SecureHadoopUser;NoA > 15;none;none
+ADR15;DRIFT;org.apache.hadoop.hbase.filter.ByteArrayComparable;NoA > 15;none;none
+ADR15;DRIFT;org.apache.hadoop.hbase.types.TerminatedWrapper;NoA > 15;none;none
+ADR15;DRIFT;org.apache.hadoop.hbase.types.RawBytesTerminated;NoA > 15;none;none
+ADR15;DRIFT;org.apache.hadoop.hbase.codec.KeyValueCodecWithTags$ByteBuffKeyValueDecoder;NoA > 15;none;none
+ADR15;DRIFT;org.apache.hadoop.hbase.util.RetryCounter$BackoffPolicy;NoA > 15;none;none
+ADR15;DRIFT;org.apache.hadoop.hbase.nio.SingleByteBuff;NoA > 15;none;none
+ADR15;DRIFT;org.apache.hadoop.hbase.CellComparatorImpl;NoA > 15;none;none
+ADR15;DRIFT;org.apache.hadoop.hbase.util.IncrementingEnvironmentEdge;NoA > 15;none;none
+ADR15;DRIFT;org.apache.hadoop.hbase.io.compress.ReusableStreamGzipCodec$ReusableGzipOutputStream$ResetableGZIPOutputStream;NoA > 15;none;none
+ADR15;DRIFT;org.apache.hadoop.hbase.util.CommonFSUtils$StreamLacksCapabilityException;NoA > 15;none;none
+ADR15;DRIFT;org.apache.hadoop.hbase.util.Base64$Base64OutputStream;NoA > 15;none;none
+ADR15;DRIFT;org.apache.hadoop.hbase.io.crypto.Encryption;NoA > 15;none;none
+ADR15;DRIFT;org.apache.hadoop.hbase.zookeeper.ZKConfig$ZKClusterKey;NoA > 15;none;none
+ADR15;DRIFT;org.apache.hadoop.hbase.PrivateCellUtil$LastOnRowCell;NoA > 15;none;none
+ADR15;DRIFT;org.apache.hadoop.hbase.KeyValueTestUtil;NoA > 15;none;none
+ADR15;DRIFT;org.apache.hadoop.hbase.util.NonceKey;NoA > 15;none;none
+ADR15;DRIFT;org.apache.hadoop.hbase.io.util.StreamUtils;NoA > 15;none;none
+ADR15;DRIFT;org.apache.hadoop.hbase.util.HasThread;NoA > 15;none;none
+ADR15;DRIFT;org.apache.hadoop.hbase.SizeCachedKeyValue;NoA > 15;none;none
+ADR15;DRIFT;org.apache.hadoop.hbase.io.encoding.AbstractDataBlockEncoder$AbstractEncodedSeeker;NoA > 15;none;none
+ADR15;DRIFT;org.apache.hadoop.hbase.io.encoding.BufferedDataBlockEncoder$BufferedDataBlockEncodingState;NoA > 15;none;none
+ADR15;DRIFT;org.apache.hadoop.hbase.util.SimpleByteRange;NoA > 15;none;none
+ADR15;DRIFT;org.apache.hadoop.hbase.io.encoding.PrefixKeyDeltaEncoder;NoA > 15;none;none
+ADR15;DRIFT;org.apache.hadoop.hbase.types.RawString;NoA > 15;none;none
+ADR15;DRIFT;org.apache.hadoop.hbase.security.Superusers;NoA > 15;none;none
+ADR15;DRIFT;org.apache.hadoop.hbase.types.RawStringFixedLength;NoA > 15;none;none
+ADR15;DRIFT;org.apache.hadoop.hbase.PrivateCellUtil;NoA > 15;none;none
+ADR15;DRIFT;org.apache.hadoop.hbase.io.encoding.DiffKeyDeltaEncoder;NoA > 15;none;none
+ADR15;DRIFT;org.apache.hadoop.hbase.types.RawInteger;NoA > 15;none;none
+ADR15;DRIFT;org.apache.hadoop.hbase.util.ConcatenatedLists$Iterator;NoA > 15;none;none
+ADR15;DRIFT;org.apache.hadoop.hbase.ByteBufferExtendedCell;NoA > 15;none;none
+ADR15;DRIFT;org.apache.hadoop.hbase.io.encoding.EncodedDataBlock;NoA > 15;none;none
+ADR15;DRIFT;org.apache.hadoop.hbase.util.Triple;NoA > 15;none;none
+ADR15;DRIFT;org.apache.hadoop.hbase.io.crypto.Encryption$Context;NoA > 15;none;none
+ADR15;DRIFT;org.apache.hadoop.hbase.types.CopyOnWriteArrayMap$ArrayEntryIterator;NoA > 15;none;none
+ADR15;DRIFT;org.apache.hadoop.hbase.util.WeakObjectPool$WeakObjectReference;NoA > 15;none;none
+ADR15;DRIFT;org.apache.hadoop.hbase.TagType;NoA > 15;none;none
+ADR15;DRIFT;org.apache.hadoop.hbase.util.CommonFSUtils$StreamCapabilities;NoA > 15;none;none
+ADR15;DRIFT;org.apache.hadoop.hbase.io.crypto.Context;NoA > 15;none;none
+ADR15;DRIFT;org.apache.hadoop.hbase.util.RowColBloomHashKey;NoA > 15;none;none
+ADR15;DRIFT;org.apache.hadoop.hbase.util.Bytes$RowEndKeyComparator;NoA > 15;none;none
+ADR15;DRIFT;org.apache.hadoop.hbase.io.compress.ReusableStreamGzipCodec;NoA > 15;none;none
+ADR15;DRIFT;org.apache.hadoop.hbase.util.ByteBufferArray$BufferCreatorCallable;NoA > 15;none;none
+ADR15;DRIFT;org.apache.hadoop.hbase.util.RetryCounter$RetryConfig;NoA > 15;none;none
+ADR15;DRIFT;org.apache.hadoop.hbase.io.ByteBuffInputStream;NoA > 15;none;none
+ADR15;DRIFT;org.apache.hadoop.hbase.types.CopyOnWriteArrayMap$ArrayHolder;NoA > 15;none;none
+ADR15;DRIFT;org.apache.hadoop.hbase.trace.TraceUtil;NoA > 15;none;none
+ADR15;DRIFT;org.apache.hadoop.hbase.util.ByteBufferArray;NoA > 15;none;none
+ADR15;DRIFT;org.apache.hadoop.hbase.types.StructIterator;NoA > 15;none;none
+ADR15;DRIFT;org.apache.hadoop.hbase.KeyValueBuilder;NoA > 15;none;none
+ADR15;DRIFT;org.apache.hadoop.hbase.ServerName;NoA > 15;none;none
+ADR15;DRIFT;org.apache.hadoop.hbase.io.encoding.RowIndexSeekerV1;NoA > 15;none;none
+ADR15;DRIFT;org.apache.hadoop.hbase.codec.CellCodec;NoA > 15;none;none
+ADR15;DRIFT;org.apache.hadoop.hbase.util.RetryCounter;NoA > 15;none;none
+ADR15;DRIFT;org.apache.hadoop.hbase.types.OrderedBlob;NoA > 15;none;none
+ADR15;DRIFT;org.apache.hadoop.hbase.types.RawStringTerminated;NoA > 15;none;none
+ADR15;DRIFT;org.apache.hadoop.hbase.ServiceNotRunningException;NoA > 15;none;none
+ADR15;DRIFT;org.apache.hadoop.hbase.io.hadoopbackport.ThrottledInputStream;NoA > 15;none;none
+ADR15;DRIFT;org.apache.hadoop.hbase.io.encoding.FastDiffDeltaEncoder$FastDiffSeekerState;NoA > 15;none;none
+ADR15;DRIFT;org.apache.hadoop.hbase.util.AvlUtil$AvlTree;NoA > 15;none;none
+ADR15;DRIFT;org.apache.hadoop.hbase.io.encoding.RowIndexCodecV1;NoA > 15;none;none
+ADR15;DRIFT;org.apache.hadoop.hbase.types.CopyOnWriteArrayMap$ArrayEntrySet;NoA > 15;none;none
+ADR15;DRIFT;org.apache.hadoop.hbase.util.SimplePositionedMutableByteRange;NoA > 15;none;none
+ADR15;DRIFT;org.apache.hadoop.hbase.RawCellBuilderFactory;NoA > 15;none;none
+ADR15;DRIFT;org.apache.hadoop.hbase.PrivateCellUtil$TagRewriteCell;NoA > 15;none;none
+ADR15;DRIFT;org.apache.hadoop.hbase.io.TagCompressionContext;NoA > 15;none;none
+ADR15;DRIFT;org.apache.hadoop.hbase.exceptions.HBaseException;NoA > 15;none;none
+ADR15;DRIFT;org.apache.hadoop.hbase.util.AvlUtil$AvlLinkedNode;NoA > 15;none;none
+ADR15;DRIFT;org.apache.hadoop.hbase.types.OrderedFloat32;NoA > 15;none;none
+ADR15;DRIFT;org.apache.hadoop.hbase.types.OrderedBytesBase;NoA > 15;none;none
+ADR15;DRIFT;org.apache.hadoop.hbase.io.hfile.HFileContextBuilder;NoA > 15;none;none
+ADR15;DRIFT;org.apache.hadoop.hbase.io.crypto.KeyStoreKeyProvider;NoA > 15;none;none
+ADR15;DRIFT;org.apache.hadoop.hbase.nio.ByteBuff;NoA > 15;none;none
+ADR15;DRIFT;org.apache.hadoop.hbase.util.RetryCounter$ExponentialBackoffPolicyWithLimit;NoA > 15;none;none
+ADR15;DRIFT;org.apache.hadoop.hbase.CellComparatorImpl$MetaCellComparator;NoA > 15;none;none
+ADR15;DRIFT;org.apache.hadoop.hbase.util.UnsafeAvailChecker;NoA > 15;none;none
+ADR15;DRIFT;org.apache.hadoop.hbase.ChoreService;NoA > 15;none;none
+ADR15;DRIFT;org.apache.hadoop.hbase.types.CopyOnWriteArrayMap$ArrayKeySet;NoA > 15;none;none
+ADR15;DRIFT;org.apache.hadoop.hbase.util.ByteBufferUtils;NoA > 15;none;none
+ADR15;DRIFT;org.apache.hadoop.hbase.io.encoding.FastDiffDeltaEncoder;NoA > 15;none;none
+ADR15;DRIFT;org.apache.hadoop.hbase.util.Base64$Base64InputStream;NoA > 15;none;none
+ADR15;DRIFT;org.apache.hadoop.hbase.KeyValue$MetaComparator;NoA > 15;none;none
+ADR15;DRIFT;org.apache.hadoop.hbase.util.ObjectPool;NoA > 15;none;none
+ADR15;DRIFT;org.apache.hadoop.hbase.io.encoding.EncodingState;NoA > 15;none;none
+ADR15;DRIFT;org.apache.hadoop.hbase.KeyValueUtil;NoA > 15;none;none
+ADR15;DRIFT;org.apache.hadoop.hbase.io.ImmutableBytesWritable;NoA > 15;none;none
+ADR15;DRIFT;org.apache.hadoop.hbase.io.encoding.CopyKeyDataBlockEncoder$CopyKeyEncodingState;NoA > 15;none;none
+ADR15;DRIFT;org.apache.hadoop.hbase.types.OrderedInt16;NoA > 15;none;none
+ADR15;DRIFT;org.apache.hadoop.hbase.PrivateCellUtil$FirstOnRowByteBufferExtendedCell;NoA > 15;none;none
+ADR15;DRIFT;org.apache.hadoop.hbase.util.CoprocessorClassLoader;NoA > 15;none;none
+ADR15;DRIFT;org.apache.hadoop.hbase.io.encoding.BufferedDataBlockEncoder;NoA > 15;none;none
+ADR15;DRIFT;org.apache.hadoop.hbase.types.OrderedInt32;NoA > 15;none;none
+ADR15;DRIFT;org.apache.hadoop.hbase.PrivateCellUtil$EmptyByteBufferExtendedCell;NoA > 15;none;none
+ADR15;DRIFT;org.apache.hadoop.hbase.util.AbstractHBaseTool;NoA > 15;none;none
+ADR15;DRIFT;org.apache.hadoop.hbase.security.User$TestingGroups;NoA > 15;none;none
+ADR15;DRIFT;org.apache.hadoop.hbase.PrivateCellUtil$TagRewriteByteBufferExtendedCell;NoA > 15;none;none
+ADR15;DRIFT;org.apache.hadoop.hbase.util.Sleeper;NoA > 15;none;none
+ADR15;DRIFT;org.apache.hadoop.hbase.io.encoding.HFileBlockDefaultEncodingContext;NoA > 15;none;none
+ADR15;DRIFT;org.apache.hadoop.hbase.io.crypto.aes.CryptoAES$Integrity;NoA > 15;none;none
+ADR15;DRIFT;org.apache.hadoop.hbase.io.encoding.CopyKeyDataBlockEncoder;NoA > 15;none;none
+ADR15;DRIFT;org.apache.hadoop.hbase.util.EnvironmentEdgeManager;NoA > 15;none;none
+ADR15;DRIFT;org.apache.hadoop.hbase.KeyValue$KeyOnlyKeyValue;NoA > 15;none;none
+ADR15;DRIFT;org.apache.hadoop.hbase.io.encoding.NoneEncoder;NoA > 15;none;none
+ADR15;DRIFT;org.apache.hadoop.hbase.codec.CellCodecWithTags;NoA > 15;none;none
+ADR15;DRIFT;org.apache.hadoop.hbase.codec.KeyValueCodecWithTags;NoA > 15;none;none
+ADR15;DRIFT;org.apache.hadoop.hbase.util.DNS;NoA > 15;none;none
+ADR15;DRIFT;org.apache.hadoop.hbase.codec.KeyValueCodecWithTags$KeyValueDecoder;NoA > 15;none;none
+ADR15;DRIFT;org.apache.hadoop.hbase.io.crypto.CryptoCipherProvider;NoA > 15;none;none
+ADR15;DRIFT;org.apache.hadoop.hbase.exceptions.IllegalArgumentIOException;NoA > 15;none;none
+ADR15;DRIFT;org.apache.hadoop.hbase.codec.CodecException;NoA > 15;none;none
+ADR15;DRIFT;org.apache.hadoop.hbase.types.RawShort;NoA > 15;none;none
+ADR15;DRIFT;org.apache.hadoop.hbase.NamespaceDescriptor;NoA > 15;none;none
+ADR15;DRIFT;org.apache.hadoop.hbase.util.ExceptionUtil;NoA > 15;none;none
+ADR15;DRIFT;org.apache.hadoop.hbase.io.encoding.DiffKeyDeltaEncoder$DiffSeekerState;NoA > 15;none;none
+ADR15;DRIFT;org.apache.hadoop.hbase.util.PrettyPrinter;NoA > 15;none;none
+ADR15;DRIFT;org.apache.hadoop.hbase.util.ByteArrayHashKey;NoA > 15;none;none
+ADR15;DRIFT;org.apache.hadoop.hbase.util.Bytes$LexicographicalComparerHolder;NoA > 15;none;none
+ADR15;DRIFT;org.apache.hadoop.hbase.util.ImmutableByteArray;NoA > 15;none;none
+ADR15;DRIFT;org.apache.hadoop.hbase.util.AbstractByteRange;NoA > 15;none;none
+ADR15;DRIFT;org.apache.hadoop.hbase.util.Bytes$ByteArrayComparator;NoA > 15;none;none
+ADR15;DRIFT;org.apache.hadoop.hbase.ByteBufferKeyValue;NoA > 15;none;none
+ADR15;DRIFT;org.apache.hadoop.hbase.codec.CellCodec$CellEncoder;NoA > 15;none;none
+ADR15;DRIFT;org.apache.hadoop.hbase.util.ReadOnlyByteRangeException;NoA > 15;none;none
+ADR15;DRIFT;org.apache.hadoop.hbase.PrivateCellUtil$FirstOnRowCell;NoA > 15;none;none
+ADR15;DRIFT;org.apache.hadoop.hbase.BaseConfigurable;NoA > 15;none;none
+ADR15;DRIFT;org.apache.hadoop.hbase.log.HBaseMarkers;NoA > 15;none;none
+ADR15;DRIFT;org.apache.hadoop.hbase.util.ReflectionUtils;NoA > 15;none;none
+ADR15;DRIFT;org.apache.hadoop.hbase.util.VersionInfo;NoA > 15;none;none
+ADR15;DRIFT;org.apache.hadoop.hbase.util.CellHashKey;NoA > 15;none;none
+ADR15;DRIFT;org.apache.hadoop.hbase.util.AvlUtil$AvlIterableList;NoA > 15;none;none
+ADR15;DRIFT;org.apache.hadoop.hbase.io.util.LRUDictionary;NoA > 15;none;none
+ADR15;DRIFT;org.apache.hadoop.hbase.util.Counter;NoA > 15;none;none
+ADR15;DRIFT;org.apache.hadoop.hbase.codec.BaseEncoder;NoA > 15;none;none
+ADR15;DRIFT;org.apache.hadoop.hbase.util.ClassLoaderBase;NoA > 15;none;none
+ADR15;DRIFT;org.apache.hadoop.hbase.util.AbstractHBaseTool$OptionsOrderComparator;NoA > 15;none;none
+ADR15;DRIFT;org.apache.hadoop.hbase.PrivateCellUtil$ValueAndTagRewriteByteBufferExtendedCell;NoA > 15;none;none
+ADR15;DRIFT;org.apache.hadoop.hbase.types.OrderedInt8;NoA > 15;none;none
+ADR15;DRIFT;org.apache.hadoop.hbase.PrivateCellUtil$FirstOnRowColByteBufferExtendedCell;NoA > 15;none;none
+ADR15;DRIFT;org.apache.hadoop.hbase.util.SoftObjectPool;NoA > 15;none;none
+ADR15;DRIFT;org.apache.hadoop.hbase.util.JRubyFormat;NoA > 15;none;none
+ADR15;DRIFT;org.apache.hadoop.hbase.io.hfile.HFileContext;NoA > 15;none;none
+ADR15;DRIFT;org.apache.hadoop.hbase.codec.KeyValueCodec$ByteBuffKeyValueDecoder;NoA > 15;none;none
+ADR15;DRIFT;org.apache.hadoop.hbase.util.Addressing;NoA > 15;none;none
+ADR15;DRIFT;org.apache.hadoop.hbase.util.ClassSize$UnsafeLayout$HeaderSize;NoA > 15;none;none
+ADR15;DRIFT;org.apache.hadoop.hbase.util.Classes;NoA > 15;none;none
+ADR15;DRIFT;org.apache.hadoop.hbase.ScheduledChore;NoA > 15;none;none
+ADR06;DRIFT;org.apache.hadoop.hbase.util.DNS;NoGH = 0.0;none;none
+ADR06;DRIFT;org.apache.hadoop.hbase.util.CommonFSUtils;NoGH = 0.0;none;none
+ADR06;DRIFT;org.apache.hadoop.hbase.security.User$SecureHadoopUser;NoGH = 0.0;none;none
+ADR06;DRIFT;org.apache.hadoop.hbase.security.UserProvider;NoGH = 0.0;none;none
+ADR06;DRIFT;org.apache.hadoop.hbase.io.encoding.BufferedDataBlockEncoder;NoGH = 0.0;none;none
+ADR06;DRIFT;org.apache.hadoop.hbase.util.JSONMetricUtil;NoGH = 0.0;none;none
+ADR06;DRIFT;org.apache.hadoop.hbase.util.UnsafeAvailChecker;NoGH = 0.0;none;none
+ADR06;DRIFT;org.apache.hadoop.hbase.ChoreService;NoGH = 0.0;none;none
+ADR06;DRIFT;org.apache.hadoop.hbase.util.AbstractHBaseTool;NoGH = 0.0;none;none
+ADR06;DRIFT;org.apache.hadoop.hbase.util.Base64;NoGH = 0.0;none;none
+ADR06;DRIFT;org.apache.hadoop.hbase.io.encoding.BufferedDataBlockEncoder$BufferedEncodedSeeker;NoGH = 0.0;none;none
+ADR06;DRIFT;org.apache.hadoop.hbase.codec.BaseDecoder;NoGH = 0.0;none;none
+ADR06;DRIFT;org.apache.hadoop.hbase.security.User;NoGH = 0.0;none;none
+ADR06;DRIFT;org.apache.hadoop.hbase.util.Bytes$LexicographicalComparerHolder;NoGH = 0.0;none;none
+ADR06;DRIFT;org.apache.hadoop.hbase.util.JVM;NoGH = 0.0;none;none
+ADR06;DRIFT;org.apache.hadoop.hbase.util.UnsafeAccess;NoGH = 0.0;none;none
+ADR06;DRIFT;org.apache.hadoop.hbase.io.crypto.Encryption;NoGH = 0.0;none;none
+ADR06;DRIFT;org.apache.hadoop.hbase.util.JSONBean;NoGH = 0.0;none;none
+ADR06;DRIFT;org.apache.hadoop.hbase.util.Bytes;NoGH = 0.0;none;none
+ADR06;DRIFT;org.apache.hadoop.hbase.ScheduledChore;NoGH = 0.0;none;none
+ADR08;DRIFT;org.apache.hadoop.hbase.io.ByteBufferListOutputStream;NoNPB = 0.0;none;none
+ADR08;DRIFT;org.apache.hadoop.hbase.util.Methods;NoNPB = 0.0;none;none
+ADR08;DRIFT;org.apache.hadoop.hbase.io.crypto.aes.CommonsCryptoAES;NoNPB = 0.0;none;none
+ADR08;DRIFT;org.apache.hadoop.hbase.security.User$SecureHadoopUser;NoNPB = 0.0;none;none
+ADR08;DRIFT;org.apache.hadoop.hbase.security.UserProvider;NoNPB = 0.0;none;none
+ADR08;DRIFT;org.apache.hadoop.hbase.io.crypto.aes.AESEncryptor;NoNPB = 0.0;none;none
+ADR08;DRIFT;org.apache.hadoop.hbase.util.UnsafeAvailChecker;NoNPB = 0.0;none;none
+ADR08;DRIFT;org.apache.hadoop.hbase.ChoreService;NoNPB = 0.0;none;none
+ADR08;DRIFT;org.apache.hadoop.hbase.util.Base64$Base64InputStream;NoNPB = 0.0;none;none
+ADR08;DRIFT;org.apache.hadoop.hbase.io.crypto.aes.CryptoAES;NoNPB = 0.0;none;none
+ADR08;DRIFT;org.apache.hadoop.hbase.util.Threads$PrintThreadInfoLazyHolder;NoNPB = 0.0;none;none
+ADR08;DRIFT;org.apache.hadoop.hbase.util.MD5Hash;NoNPB = 0.0;none;none
+ADR08;DRIFT;org.apache.hadoop.hbase.util.ObjectPool;NoNPB = 0.0;none;none
+ADR08;DRIFT;org.apache.hadoop.hbase.util.ClassSize$UnsafeLayout;NoNPB = 0.0;none;none
+ADR08;DRIFT;org.apache.hadoop.hbase.util.UnsafeAccess;NoNPB = 0.0;none;none
+ADR08;DRIFT;org.apache.hadoop.hbase.io.crypto.Encryption;NoNPB = 0.0;none;none
+ADR08;DRIFT;org.apache.hadoop.hbase.util.CommonFSUtils;NoNPB = 0.0;none;none
+ADR08;DRIFT;org.apache.hadoop.hbase.util.CoprocessorClassLoader;NoNPB = 0.0;none;none
+ADR08;DRIFT;org.apache.hadoop.hbase.io.encoding.BufferedDataBlockEncoder;NoNPB = 0.0;none;none
+ADR08;DRIFT;org.apache.hadoop.hbase.util.AbstractHBaseTool;NoNPB = 0.0;none;none
+ADR08;DRIFT;org.apache.hadoop.hbase.io.crypto.aes.CommonsCryptoAESDecryptor;NoNPB = 0.0;none;none
+ADR08;DRIFT;org.apache.hadoop.hbase.io.compress.Compression;NoNPB = 0.0;none;none
+ADR08;DRIFT;org.apache.hadoop.hbase.util.DynamicClassLoader;NoNPB = 0.0;none;none
+ADR08;DRIFT;org.apache.hadoop.hbase.codec.BaseDecoder;NoNPB = 0.0;none;none
+ADR08;DRIFT;org.apache.hadoop.hbase.util.Sleeper;NoNPB = 0.0;none;none
+ADR08;DRIFT;org.apache.hadoop.hbase.io.encoding.HFileBlockDefaultEncodingContext;NoNPB = 0.0;none;none
+ADR08;DRIFT;org.apache.hadoop.hbase.io.crypto.aes.CryptoAES$Integrity;NoNPB = 0.0;none;none
+ADR08;DRIFT;org.apache.hadoop.hbase.HBaseConfiguration;NoNPB = 0.0;none;none
+ADR08;DRIFT;org.apache.hadoop.hbase.util.JVM;NoNPB = 0.0;none;none
+ADR08;DRIFT;org.apache.hadoop.hbase.io.encoding.EncodedDataBlock;NoNPB = 0.0;none;none
+ADR08;DRIFT;org.apache.hadoop.hbase.util.DNS;NoNPB = 0.0;none;none
+ADR08;DRIFT;org.apache.hadoop.hbase.io.encoding.HFileBlockDefaultDecodingContext;NoNPB = 0.0;none;none
+ADR08;DRIFT;org.apache.hadoop.hbase.util.JSONMetricUtil;NoNPB = 0.0;none;none
+ADR08;DRIFT;org.apache.hadoop.hbase.util.CommonFSUtils$StreamCapabilities;NoNPB = 0.0;none;none
+ADR08;DRIFT;org.apache.hadoop.hbase.util.PrettyPrinter;NoNPB = 0.0;none;none
+ADR08;DRIFT;org.apache.hadoop.hbase.security.User;NoNPB = 0.0;none;none
+ADR08;DRIFT;org.apache.hadoop.hbase.io.crypto.aes.CommonsCryptoAESEncryptor;NoNPB = 0.0;none;none
+ADR08;DRIFT;org.apache.hadoop.hbase.util.ClassSize;NoNPB = 0.0;none;none
+ADR08;DRIFT;org.apache.hadoop.hbase.io.compress.ReusableStreamGzipCodec;NoNPB = 0.0;none;none
+ADR08;DRIFT;org.apache.hadoop.hbase.io.compress.ReusableStreamGzipCodec$ReusableGzipOutputStream;NoNPB = 0.0;none;none
+ADR08;DRIFT;org.apache.hadoop.hbase.util.Bytes$LexicographicalComparerHolder;NoNPB = 0.0;none;none
+ADR08;DRIFT;org.apache.hadoop.hbase.io.crypto.aes.AES;NoNPB = 0.0;none;none
+ADR08;DRIFT;org.apache.hadoop.hbase.util.ByteBufferArray;NoNPB = 0.0;none;none
+ADR08;DRIFT;org.apache.hadoop.hbase.util.Threads;NoNPB = 0.0;none;none
+ADR08;DRIFT;org.apache.hadoop.hbase.AuthUtil;NoNPB = 0.0;none;none
+ADR08;DRIFT;org.apache.hadoop.hbase.util.JSONBean;NoNPB = 0.0;none;none
+ADR08;DRIFT;org.apache.hadoop.hbase.util.Bytes;NoNPB = 0.0;none;none
+ADR08;DRIFT;org.apache.hadoop.hbase.util.JenkinsHash;NoNPB = 0.0;none;none
+ADR08;DRIFT;org.apache.hadoop.hbase.util.ReflectionUtils;NoNPB = 0.0;none;none
+ADR08;DRIFT;org.apache.hadoop.hbase.util.VersionInfo;NoNPB = 0.0;none;none
+ADR08;DRIFT;org.apache.hadoop.hbase.trace.SpanReceiverHost;NoNPB = 0.0;none;none
+ADR08;DRIFT;org.apache.hadoop.hbase.util.Base64;NoNPB = 0.0;none;none
+ADR08;DRIFT;org.apache.hadoop.hbase.io.encoding.BufferedDataBlockEncoder$BufferedEncodedSeeker;NoNPB = 0.0;none;none
+ADR08;DRIFT;org.apache.hadoop.hbase.io.hadoopbackport.ThrottledInputStream;NoNPB = 0.0;none;none
+ADR08;DRIFT;org.apache.hadoop.hbase.io.hfile.HFileContext;NoNPB = 0.0;none;none
+ADR08;DRIFT;org.apache.hadoop.hbase.util.Addressing;NoNPB = 0.0;none;none
+ADR08;DRIFT;org.apache.hadoop.hbase.io.crypto.aes.AESDecryptor;NoNPB = 0.0;none;none
+ADR08;DRIFT;org.apache.hadoop.hbase.io.crypto.KeyStoreKeyProvider;NoNPB = 0.0;none;none
+ADR08;DRIFT;org.apache.hadoop.hbase.nio.ByteBuff;NoNPB = 0.0;none;none
+ADR08;DRIFT;org.apache.hadoop.hbase.ScheduledChore;NoNPB = 0.0;none;none
+ADR13;DRIFT;org.apache.hadoop.hbase.util.Methods;(Ce / (Ce + Ca)) <= 0.3;none;none
+ADR13;DRIFT;org.apache.hadoop.hbase.security.UserProvider;(Ce / (Ce + Ca)) <= 0.3;none;none
+ADR13;DRIFT;org.apache.hadoop.hbase.types.OrderedInt64;(Ce / (Ce + Ca)) <= 0.3;none;none
+ADR13;DRIFT;org.apache.hadoop.hbase.nio.MultiByteBuff;(Ce / (Ce + Ca)) <= 0.3;none;none
+ADR13;DRIFT;org.apache.hadoop.hbase.CompoundConfiguration$ImmutableConfWrapper;(Ce / (Ce + Ca)) <= 0.3;none;none
+ADR13;DRIFT;org.apache.hadoop.hbase.PrivateCellUtil$LastOnRowColByteBufferExtendedCell;(Ce / (Ce + Ca)) <= 0.3;none;none
+ADR13;DRIFT;org.apache.hadoop.hbase.trace.HBaseHTraceConfiguration;(Ce / (Ce + Ca)) <= 0.3;none;none
+ADR13;DRIFT;org.apache.hadoop.hbase.util.SoftObjectPool$SoftObjectReference;(Ce / (Ce + Ca)) <= 0.3;none;none
+ADR13;DRIFT;org.apache.hadoop.hbase.types.StructBuilder;(Ce / (Ce + Ca)) <= 0.3;none;none
+ADR13;DRIFT;org.apache.hadoop.hbase.AsyncConsoleAppender;(Ce / (Ce + Ca)) <= 0.3;none;none
+ADR13;DRIFT;org.apache.hadoop.hbase.util.RetryCounterFactory;(Ce / (Ce + Ca)) <= 0.3;none;none
+ADR13;DRIFT;org.apache.hadoop.hbase.util.Threads$PrintThreadInfoLazyHolder;(Ce / (Ce + Ca)) <= 0.3;none;none
+ADR13;DRIFT;org.apache.hadoop.hbase.util.MD5Hash;(Ce / (Ce + Ca)) <= 0.3;none;none
+ADR13;DRIFT;org.apache.hadoop.hbase.rsgroup.RSGroupInfo;(Ce / (Ce + Ca)) <= 0.3;none;none
+ADR13;DRIFT;org.apache.hadoop.hbase.io.encoding.CompressionState;(Ce / (Ce + Ca)) <= 0.3;none;none
+ADR13;DRIFT;org.apache.hadoop.hbase.io.encoding.BufferedDataBlockEncoder$SeekerState;(Ce / (Ce + Ca)) <= 0.3;none;none
+ADR13;DRIFT;org.apache.hadoop.hbase.CompoundConfiguration;(Ce / (Ce + Ca)) <= 0.3;none;none
+ADR13;DRIFT;org.apache.hadoop.hbase.util.AvlUtil;(Ce / (Ce + Ca)) <= 0.3;none;none
+ADR13;DRIFT;org.apache.hadoop.hbase.exceptions.DeserializationException;(Ce / (Ce + Ca)) <= 0.3;none;none
+ADR13;DRIFT;org.apache.hadoop.hbase.ChoreService$ChoreServiceThreadFactory;(Ce / (Ce + Ca)) <= 0.3;none;none
+ADR13;DRIFT;org.apache.hadoop.hbase.io.encoding.RowIndexCodecV1$RowIndexEncodingState;(Ce / (Ce + Ca)) <= 0.3;none;none
+ADR13;DRIFT;org.apache.hadoop.hbase.util.DefaultEnvironmentEdge;(Ce / (Ce + Ca)) <= 0.3;none;none
+ADR13;DRIFT;org.apache.hadoop.hbase.io.encoding.DiffKeyDeltaEncoder$DiffCompressionState;(Ce / (Ce + Ca)) <= 0.3;none;none
+ADR13;DRIFT;org.apache.hadoop.hbase.util.Pair;(Ce / (Ce + Ca)) <= 0.3;none;none
+ADR13;DRIFT;org.apache.hadoop.hbase.io.encoding.RowIndexSeekerV1$SeekerState;(Ce / (Ce + Ca)) <= 0.3;none;none
+ADR13;DRIFT;org.apache.hadoop.hbase.util.CommonFSUtils;(Ce / (Ce + Ca)) <= 0.3;none;none
+ADR13;DRIFT;org.apache.hadoop.hbase.net.Address;(Ce / (Ce + Ca)) <= 0.3;none;none
+ADR13;DRIFT;org.apache.hadoop.hbase.codec.CellCodecWithTags$CellEncoder;(Ce / (Ce + Ca)) <= 0.3;none;none
+ADR13;DRIFT;org.apache.hadoop.hbase.exceptions.UnexpectedStateException;(Ce / (Ce + Ca)) <= 0.3;none;none
+ADR13;DRIFT;org.apache.hadoop.hbase.PrivateCellUtil$ValueAndTagRewriteCell;(Ce / (Ce + Ca)) <= 0.3;none;none
+ADR13;DRIFT;org.apache.hadoop.hbase.util.OrderedBytes;(Ce / (Ce + Ca)) <= 0.3;none;none
+ADR13;DRIFT;org.apache.hadoop.hbase.codec.CellCodec$CellDecoder;(Ce / (Ce + Ca)) <= 0.3;none;none
+ADR13;DRIFT;org.apache.hadoop.hbase.io.encoding.EncoderBufferTooSmallException;(Ce / (Ce + Ca)) <= 0.3;none;none
+ADR13;DRIFT;org.apache.hadoop.hbase.types.RawByte;(Ce / (Ce + Ca)) <= 0.3;none;none
+ADR13;DRIFT;org.apache.hadoop.hbase.io.crypto.aes.CommonsCryptoAESDecryptor;(Ce / (Ce + Ca)) <= 0.3;none;none
+ADR13;DRIFT;org.apache.hadoop.hbase.util.AbstractPositionedByteRange;(Ce / (Ce + Ca)) <= 0.3;none;none
+ADR13;DRIFT;org.apache.hadoop.hbase.util.Counter$Container;(Ce / (Ce + Ca)) <= 0.3;none;none
+ADR13;DRIFT;org.apache.hadoop.hbase.util.DynamicClassLoader;(Ce / (Ce + Ca)) <= 0.3;none;none
+ADR13;DRIFT;org.apache.hadoop.hbase.codec.BaseDecoder$PBIS;(Ce / (Ce + Ca)) <= 0.3;none;none
+ADR13;DRIFT;org.apache.hadoop.hbase.util.Strings;(Ce / (Ce + Ca)) <= 0.3;none;none
+ADR13;DRIFT;org.apache.hadoop.hbase.IndividualBytesFieldCellBuilder;(Ce / (Ce + Ca)) <= 0.3;none;none
+ADR13;DRIFT;org.apache.hadoop.hbase.io.crypto.DefaultCipherProvider;(Ce / (Ce + Ca)) <= 0.3;none;none
+ADR13;DRIFT;org.apache.hadoop.hbase.util.JVM;(Ce / (Ce + Ca)) <= 0.3;none;none
+ADR13;DRIFT;org.apache.hadoop.hbase.types.OrderedNumeric;(Ce / (Ce + Ca)) <= 0.3;none;none
+ADR13;DRIFT;org.apache.hadoop.hbase.util.ConcatenatedLists;(Ce / (Ce + Ca)) <= 0.3;none;none
+ADR13;DRIFT;org.apache.hadoop.hbase.PrivateCellUtil$FirstOnRowDeleteFamilyCell;(Ce / (Ce + Ca)) <= 0.3;none;none
+ADR13;DRIFT;org.apache.hadoop.hbase.codec.KeyValueCodecWithTags$KeyValueEncoder;(Ce / (Ce + Ca)) <= 0.3;none;none
+ADR13;DRIFT;org.apache.hadoop.hbase.io.encoding.FastDiffDeltaEncoder$FastDiffCompressionState;(Ce / (Ce + Ca)) <= 0.3;none;none
+ADR13;DRIFT;org.apache.hadoop.hbase.util.ByteRangeUtils;(Ce / (Ce + Ca)) <= 0.3;none;none
+ADR13;DRIFT;org.apache.hadoop.hbase.types.CopyOnWriteArrayMap$ArrayKeyIterator;(Ce / (Ce + Ca)) <= 0.3;none;none
+ADR13;DRIFT;org.apache.hadoop.hbase.types.Union4;(Ce / (Ce + Ca)) <= 0.3;none;none
+ADR13;DRIFT;org.apache.hadoop.hbase.util.WeakObjectPool;(Ce / (Ce + Ca)) <= 0.3;none;none
+ADR13;DRIFT;org.apache.hadoop.hbase.types.Union2;(Ce / (Ce + Ca)) <= 0.3;none;none
+ADR13;DRIFT;org.apache.hadoop.hbase.types.Union3;(Ce / (Ce + Ca)) <= 0.3;none;none
+ADR13;DRIFT;org.apache.hadoop.hbase.io.compress.Compression$FinishOnFlushCompressionStream;(Ce / (Ce + Ca)) <= 0.3;none;none
+ADR13;DRIFT;org.apache.hadoop.hbase.types.RawBytesFixedLength;(Ce / (Ce + Ca)) <= 0.3;none;none
+ADR13;DRIFT;org.apache.hadoop.hbase.util.SimpleMutableByteRange;(Ce / (Ce + Ca)) <= 0.3;none;none
+ADR13;DRIFT;org.apache.hadoop.hbase.io.crypto.aes.CommonsCryptoAESEncryptor;(Ce / (Ce + Ca)) <= 0.3;none;none
+ADR13;DRIFT;org.apache.hadoop.hbase.io.encoding.RowIndexEncoderV1;(Ce / (Ce + Ca)) <= 0.3;none;none
+ADR13;DRIFT;org.apache.hadoop.hbase.io.compress.ReusableStreamGzipCodec$ReusableGzipOutputStream;(Ce / (Ce + Ca)) <= 0.3;none;none
+ADR13;DRIFT;org.apache.hadoop.hbase.io.encoding.AbstractDataBlockEncoder;(Ce / (Ce + Ca)) <= 0.3;none;none
+ADR13;DRIFT;org.apache.hadoop.hbase.io.encoding.BufferedDataBlockEncoder$OnheapDecodedCell;(Ce / (Ce + Ca)) <= 0.3;none;none
+ADR13;DRIFT;org.apache.hadoop.hbase.io.ImmutableBytesWritable$Comparator;(Ce / (Ce + Ca)) <= 0.3;none;none
+ADR13;DRIFT;org.apache.hadoop.hbase.AuthUtil;(Ce / (Ce + Ca)) <= 0.3;none;none
+ADR13;DRIFT;org.apache.hadoop.hbase.util.JSONBean;(Ce / (Ce + Ca)) <= 0.3;none;none
+ADR13;DRIFT;org.apache.hadoop.hbase.types.PBType;(Ce / (Ce + Ca)) <= 0.3;none;none
+ADR13;DRIFT;org.apache.hadoop.hbase.TableName;(Ce / (Ce + Ca)) <= 0.3;none;none
+ADR13;DRIFT;org.apache.hadoop.hbase.ByteBufferTag;(Ce / (Ce + Ca)) <= 0.3;none;none
+ADR13;DRIFT;org.apache.hadoop.hbase.util.MurmurHash3;(Ce / (Ce + Ca)) <= 0.3;none;none
+ADR13;DRIFT;org.apache.hadoop.hbase.io.ByteArrayOutputStream;(Ce / (Ce + Ca)) <= 0.3;none;none
+ADR13;DRIFT;org.apache.hadoop.hbase.util.RetryCounter$ExponentialBackoffPolicy;(Ce / (Ce + Ca)) <= 0.3;none;none
+ADR13;DRIFT;org.apache.hadoop.hbase.util.Hash;(Ce / (Ce + Ca)) <= 0.3;none;none
+ADR13;DRIFT;org.apache.hadoop.hbase.io.util.LRUDictionary$BidirectionalLRUMap$Node;(Ce / (Ce + Ca)) <= 0.3;none;none
+ADR13;DRIFT;org.apache.hadoop.hbase.types.CopyOnWriteArrayMap$ArrayValueCollection;(Ce / (Ce + Ca)) <= 0.3;none;none
+ADR13;DRIFT;org.apache.hadoop.hbase.util.MurmurHash;(Ce / (Ce + Ca)) <= 0.3;none;none
+ADR13;DRIFT;org.apache.hadoop.hbase.io.ByteBufferPool;(Ce / (Ce + Ca)) <= 0.3;none;none
+ADR13;DRIFT;org.apache.hadoop.hbase.util.PairOfSameType;(Ce / (Ce + Ca)) <= 0.3;none;none
+ADR13;DRIFT;org.apache.hadoop.hbase.types.CopyOnWriteArrayMap$COWEntry;(Ce / (Ce + Ca)) <= 0.3;none;none
+ADR13;DRIFT;org.apache.hadoop.hbase.types.CopyOnWriteArrayMap$ArrayValueIterator;(Ce / (Ce + Ca)) <= 0.3;none;none
+ADR13;DRIFT;org.apache.hadoop.hbase.util.ObjectIntPair;(Ce / (Ce + Ca)) <= 0.3;none;none
+ADR13;DRIFT;org.apache.hadoop.hbase.io.ByteBufferListOutputStream;(Ce / (Ce + Ca)) <= 0.3;none;none
+ADR13;DRIFT;org.apache.hadoop.hbase.io.crypto.aes.CommonsCryptoAES;(Ce / (Ce + Ca)) <= 0.3;none;none
+ADR13;DRIFT;org.apache.hadoop.hbase.io.util.LRUDictionary$BidirectionalLRUMap;(Ce / (Ce + Ca)) <= 0.3;none;none
+ADR13;DRIFT;org.apache.hadoop.hbase.types.OrderedBlobVar;(Ce / (Ce + Ca)) <= 0.3;none;none
+ADR13;DRIFT;org.apache.hadoop.hbase.io.crypto.aes.AESEncryptor;(Ce / (Ce + Ca)) <= 0.3;none;none
+ADR13;DRIFT;org.apache.hadoop.hbase.io.util.LRUDictionary$BidirectionalLRUMap$ByteArrayBackedNode;(Ce / (Ce + Ca)) <= 0.3;none;none
+ADR13;DRIFT;org.apache.hadoop.hbase.types.RawDouble;(Ce / (Ce + Ca)) <= 0.3;none;none
+ADR13;DRIFT;org.apache.hadoop.hbase.io.crypto.aes.CryptoAES;(Ce / (Ce + Ca)) <= 0.3;none;none
+ADR13;DRIFT;org.apache.hadoop.hbase.TagUtil;(Ce / (Ce + Ca)) <= 0.3;none;none
+ADR13;DRIFT;org.apache.hadoop.hbase.types.FixedLengthWrapper;(Ce / (Ce + Ca)) <= 0.3;none;none
+ADR13;DRIFT;org.apache.hadoop.hbase.util.ClassSize$UnsafeLayout;(Ce / (Ce + Ca)) <= 0.3;none;none
+ADR13;DRIFT;org.apache.hadoop.hbase.util.UnsafeAccess;(Ce / (Ce + Ca)) <= 0.3;none;none
+ADR13;DRIFT;org.apache.hadoop.hbase.codec.CellCodecWithTags$CellDecoder;(Ce / (Ce + Ca)) <= 0.3;none;none
+ADR13;DRIFT;org.apache.hadoop.hbase.CellBuilderFactory;(Ce / (Ce + Ca)) <= 0.3;none;none
+ADR13;DRIFT;org.apache.hadoop.hbase.util.BoundedCompletionService$QueueingFuture;(Ce / (Ce + Ca)) <= 0.3;none;none
+ADR13;DRIFT;org.apache.hadoop.hbase.types.OrderedString;(Ce / (Ce + Ca)) <= 0.3;none;none
+ADR13;DRIFT;org.apache.hadoop.hbase.ExtendedCellBuilderFactory;(Ce / (Ce + Ca)) <= 0.3;none;none
+ADR13;DRIFT;org.apache.hadoop.hbase.JitterScheduledThreadPoolExecutorImpl$JitteredRunnableScheduledFuture;(Ce / (Ce + Ca)) <= 0.3;none;none
+ADR13;DRIFT;org.apache.hadoop.hbase.util.AvlUtil$AvlTreeIterator;(Ce / (Ce + Ca)) <= 0.3;none;none
+ADR13;DRIFT;org.apache.hadoop.hbase.util.CollectionUtils;(Ce / (Ce + Ca)) <= 0.3;none;none
+ADR13;DRIFT;org.apache.hadoop.hbase.io.compress.Compression;(Ce / (Ce + Ca)) <= 0.3;none;none
+ADR13;DRIFT;org.apache.hadoop.hbase.NoTagsByteBufferKeyValue;(Ce / (Ce + Ca)) <= 0.3;none;none
+ADR13;DRIFT;org.apache.hadoop.hbase.HBaseInterfaceAudience;(Ce / (Ce + Ca)) <= 0.3;none;none
+ADR13;DRIFT;org.apache.hadoop.hbase.io.ByteBufferInputStream;(Ce / (Ce + Ca)) <= 0.3;none;none
+ADR13;DRIFT;org.apache.hadoop.hbase.NamespaceDescriptor$Builder;(Ce / (Ce + Ca)) <= 0.3;none;none
+ADR13;DRIFT;org.apache.hadoop.hbase.codec.BaseDecoder;(Ce / (Ce + Ca)) <= 0.3;none;none
+ADR13;DRIFT;org.apache.hadoop.hbase.KeyValue$KVComparator;(Ce / (Ce + Ca)) <= 0.3;none;none
+ADR13;DRIFT;org.apache.hadoop.hbase.util.SimplePositionedByteRange;(Ce / (Ce + Ca)) <= 0.3;none;none
+ADR13;DRIFT;org.apache.hadoop.hbase.codec.KeyValueCodec$KeyValueDecoder;(Ce / (Ce + Ca)) <= 0.3;none;none
+ADR13;DRIFT;org.apache.hadoop.hbase.util.AtomicUtils;(Ce / (Ce + Ca)) <= 0.3;none;none
+ADR13;DRIFT;org.apache.hadoop.hbase.HBaseConfiguration;(Ce / (Ce + Ca)) <= 0.3;none;none
+ADR13;DRIFT;org.apache.hadoop.hbase.types.RawLong;(Ce / (Ce + Ca)) <= 0.3;none;none
+ADR13;DRIFT;org.apache.hadoop.hbase.NoTagsKeyValue;(Ce / (Ce + Ca)) <= 0.3;none;none
+ADR13;DRIFT;org.apache.hadoop.hbase.util.BoundedCompletionService;(Ce / (Ce + Ca)) <= 0.3;none;none
+ADR13;DRIFT;org.apache.hadoop.hbase.util.ClassSize$MemoryLayout;(Ce / (Ce + Ca)) <= 0.3;none;none
+ADR13;DRIFT;org.apache.hadoop.hbase.HBaseIOException;(Ce / (Ce + Ca)) <= 0.3;none;none
+ADR13;DRIFT;org.apache.hadoop.hbase.JitterScheduledThreadPoolExecutorImpl;(Ce / (Ce + Ca)) <= 0.3;none;none
+ADR13;DRIFT;org.apache.hadoop.hbase.PrivateCellUtil$LastOnRowByteBufferExtendedCell;(Ce / (Ce + Ca)) <= 0.3;none;none
+ADR13;DRIFT;org.apache.hadoop.hbase.util.KeyLocker;(Ce / (Ce + Ca)) <= 0.3;none;none
+ADR13;DRIFT;org.apache.hadoop.hbase.io.encoding.HFileBlockDefaultDecodingContext;(Ce / (Ce + Ca)) <= 0.3;none;none
+ADR13;DRIFT;org.apache.hadoop.hbase.io.util.LRUDictionary$BidirectionalLRUMap$ByteBufferBackedNode;(Ce / (Ce + Ca)) <= 0.3;none;none
+ADR13;DRIFT;org.apache.hadoop.hbase.PrivateCellUtil$EmptyCell;(Ce / (Ce + Ca)) <= 0.3;none;none
+ADR13;DRIFT;org.apache.hadoop.hbase.io.TimeRange;(Ce / (Ce + Ca)) <= 0.3;none;none
+ADR13;DRIFT;org.apache.hadoop.hbase.util.JSONMetricUtil;(Ce / (Ce + Ca)) <= 0.3;none;none
+ADR13;DRIFT;org.apache.hadoop.hbase.ByteBufferKeyOnlyKeyValue;(Ce / (Ce + Ca)) <= 0.3;none;none
+ADR13;DRIFT;org.apache.hadoop.hbase.io.crypto.Cipher;(Ce / (Ce + Ca)) <= 0.3;none;none
+ADR13;DRIFT;org.apache.hadoop.hbase.security.User;(Ce / (Ce + Ca)) <= 0.3;none;none
+ADR13;DRIFT;org.apache.hadoop.hbase.PrivateCellUtil$FirstOnRowColTSByteBufferExtendedCell;(Ce / (Ce + Ca)) <= 0.3;none;none
+ADR13;DRIFT;org.apache.hadoop.hbase.ArrayBackedTag;(Ce / (Ce + Ca)) <= 0.3;none;none
+ADR13;DRIFT;org.apache.hadoop.hbase.types.CopyOnWriteArrayMap;(Ce / (Ce + Ca)) <= 0.3;none;none
+ADR13;DRIFT;org.apache.hadoop.hbase.types.RawFloat;(Ce / (Ce + Ca)) <= 0.3;none;none
+ADR13;DRIFT;org.apache.hadoop.hbase.exceptions.TimeoutIOException;(Ce / (Ce + Ca)) <= 0.3;none;none
+ADR13;DRIFT;org.apache.hadoop.hbase.HConstants;(Ce / (Ce + Ca)) <= 0.3;none;none
+ADR13;DRIFT;org.apache.hadoop.hbase.io.ByteBufferWriterDataOutputStream;(Ce / (Ce + Ca)) <= 0.3;none;none
+ADR13;DRIFT;org.apache.hadoop.hbase.IndividualBytesFieldCell;(Ce / (Ce + Ca)) <= 0.3;none;none
+ADR13;DRIFT;org.apache.hadoop.hbase.PrivateCellUtil$LastOnRowColCell;(Ce / (Ce + Ca)) <= 0.3;none;none
+ADR13;DRIFT;org.apache.hadoop.hbase.PrivateCellUtil$FirstOnRowColTSCell;(Ce / (Ce + Ca)) <= 0.3;none;none
+ADR13;DRIFT;org.apache.hadoop.hbase.types.OrderedFloat64;(Ce / (Ce + Ca)) <= 0.3;none;none
+ADR13;DRIFT;org.apache.hadoop.hbase.util.AvlUtil$AvlNode;(Ce / (Ce + Ca)) <= 0.3;none;none
+ADR13;DRIFT;org.apache.hadoop.hbase.io.crypto.aes.AES;(Ce / (Ce + Ca)) <= 0.3;none;none
+ADR13;DRIFT;org.apache.hadoop.hbase.codec.KeyValueCodec;(Ce / (Ce + Ca)) <= 0.3;none;none
+ADR13;DRIFT;org.apache.hadoop.hbase.util.Threads;(Ce / (Ce + Ca)) <= 0.3;none;none
+ADR13;DRIFT;org.apache.hadoop.hbase.SizeCachedNoTagsKeyValue;(Ce / (Ce + Ca)) <= 0.3;none;none
+ADR13;DRIFT;org.apache.hadoop.hbase.io.ByteBufferWriterOutputStream;(Ce / (Ce + Ca)) <= 0.3;none;none
+ADR13;DRIFT;org.apache.hadoop.hbase.KeyValue;(Ce / (Ce + Ca)) <= 0.3;none;none
+ADR13;DRIFT;org.apache.hadoop.hbase.util.Bytes;(Ce / (Ce + Ca)) <= 0.3;none;none
+ADR13;DRIFT;org.apache.hadoop.hbase.util.HashKey;(Ce / (Ce + Ca)) <= 0.3;none;none
+ADR13;DRIFT;org.apache.hadoop.hbase.util.JenkinsHash;(Ce / (Ce + Ca)) <= 0.3;none;none
+ADR13;DRIFT;org.apache.hadoop.hbase.types.Struct;(Ce / (Ce + Ca)) <= 0.3;none;none
+ADR13;DRIFT;org.apache.hadoop.hbase.trace.SpanReceiverHost;(Ce / (Ce + Ca)) <= 0.3;none;none
+ADR13;DRIFT;org.apache.hadoop.hbase.io.encoding.BufferedDataBlockEncoder$BufferedEncodedSeeker;(Ce / (Ce + Ca)) <= 0.3;none;none
+ADR13;DRIFT;org.apache.hadoop.hbase.io.ByteBufferOutputStream;(Ce / (Ce + Ca)) <= 0.3;none;none
+ADR13;DRIFT;org.apache.hadoop.hbase.types.RawBytes;(Ce / (Ce + Ca)) <= 0.3;none;none
+ADR13;DRIFT;org.apache.hadoop.hbase.CellUtil;(Ce / (Ce + Ca)) <= 0.3;none;none
+ADR13;DRIFT;org.apache.hadoop.hbase.PrivateCellUtil$FirstOnRowColCell;(Ce / (Ce + Ca)) <= 0.3;none;none
+ADR13;DRIFT;org.apache.hadoop.hbase.io.encoding.BufferedDataBlockEncoder$OffheapDecodedExtendedCell;(Ce / (Ce + Ca)) <= 0.3;none;none
+ADR13;DRIFT;org.apache.hadoop.hbase.util.RowBloomHashKey;(Ce / (Ce + Ca)) <= 0.3;none;none
+ADR13;DRIFT;org.apache.hadoop.hbase.io.crypto.aes.AESDecryptor;(Ce / (Ce + Ca)) <= 0.3;none;none
+ADR13;DRIFT;org.apache.hadoop.hbase.zookeeper.ZKConfig;(Ce / (Ce + Ca)) <= 0.3;none;none
+ADR13;DRIFT;org.apache.hadoop.hbase.codec.KeyValueCodec$KeyValueEncoder;(Ce / (Ce + Ca)) <= 0.3;none;none
+ADR13;DRIFT;org.apache.hadoop.hbase.security.User$SecureHadoopUser;(Ce / (Ce + Ca)) <= 0.3;none;none
+ADR13;DRIFT;org.apache.hadoop.hbase.filter.ByteArrayComparable;(Ce / (Ce + Ca)) <= 0.3;none;none
+ADR13;DRIFT;org.apache.hadoop.hbase.types.TerminatedWrapper;(Ce / (Ce + Ca)) <= 0.3;none;none
+ADR13;DRIFT;org.apache.hadoop.hbase.types.RawBytesTerminated;(Ce / (Ce + Ca)) <= 0.3;none;none
+ADR13;DRIFT;org.apache.hadoop.hbase.codec.KeyValueCodecWithTags$ByteBuffKeyValueDecoder;(Ce / (Ce + Ca)) <= 0.3;none;none
+ADR13;DRIFT;org.apache.hadoop.hbase.util.RetryCounter$BackoffPolicy;(Ce / (Ce + Ca)) <= 0.3;none;none
+ADR13;DRIFT;org.apache.hadoop.hbase.nio.SingleByteBuff;(Ce / (Ce + Ca)) <= 0.3;none;none
+ADR13;DRIFT;org.apache.hadoop.hbase.CellComparatorImpl;(Ce / (Ce + Ca)) <= 0.3;none;none
+ADR13;DRIFT;org.apache.hadoop.hbase.util.IncrementingEnvironmentEdge;(Ce / (Ce + Ca)) <= 0.3;none;none
+ADR13;DRIFT;org.apache.hadoop.hbase.io.compress.ReusableStreamGzipCodec$ReusableGzipOutputStream$ResetableGZIPOutputStream;(Ce / (Ce + Ca)) <= 0.3;none;none
+ADR13;DRIFT;org.apache.hadoop.hbase.util.CommonFSUtils$StreamLacksCapabilityException;(Ce / (Ce + Ca)) <= 0.3;none;none
+ADR13;DRIFT;org.apache.hadoop.hbase.util.Base64$Base64OutputStream;(Ce / (Ce + Ca)) <= 0.3;none;none
+ADR13;DRIFT;org.apache.hadoop.hbase.io.crypto.Encryption;(Ce / (Ce + Ca)) <= 0.3;none;none
+ADR13;DRIFT;org.apache.hadoop.hbase.zookeeper.ZKConfig$ZKClusterKey;(Ce / (Ce + Ca)) <= 0.3;none;none
+ADR13;DRIFT;org.apache.hadoop.hbase.PrivateCellUtil$LastOnRowCell;(Ce / (Ce + Ca)) <= 0.3;none;none
+ADR13;DRIFT;org.apache.hadoop.hbase.KeyValueTestUtil;(Ce / (Ce + Ca)) <= 0.3;none;none
+ADR13;DRIFT;org.apache.hadoop.hbase.util.NonceKey;(Ce / (Ce + Ca)) <= 0.3;none;none
+ADR13;DRIFT;org.apache.hadoop.hbase.io.util.StreamUtils;(Ce / (Ce + Ca)) <= 0.3;none;none
+ADR13;DRIFT;org.apache.hadoop.hbase.util.HasThread;(Ce / (Ce + Ca)) <= 0.3;none;none
+ADR13;DRIFT;org.apache.hadoop.hbase.SizeCachedKeyValue;(Ce / (Ce + Ca)) <= 0.3;none;none
+ADR13;DRIFT;org.apache.hadoop.hbase.io.encoding.AbstractDataBlockEncoder$AbstractEncodedSeeker;(Ce / (Ce + Ca)) <= 0.3;none;none
+ADR13;DRIFT;org.apache.hadoop.hbase.io.encoding.BufferedDataBlockEncoder$BufferedDataBlockEncodingState;(Ce / (Ce + Ca)) <= 0.3;none;none
+ADR13;DRIFT;org.apache.hadoop.hbase.util.SimpleByteRange;(Ce / (Ce + Ca)) <= 0.3;none;none
+ADR13;DRIFT;org.apache.hadoop.hbase.io.encoding.PrefixKeyDeltaEncoder;(Ce / (Ce + Ca)) <= 0.3;none;none
+ADR13;DRIFT;org.apache.hadoop.hbase.types.RawString;(Ce / (Ce + Ca)) <= 0.3;none;none
+ADR13;DRIFT;org.apache.hadoop.hbase.security.Superusers;(Ce / (Ce + Ca)) <= 0.3;none;none
+ADR13;DRIFT;org.apache.hadoop.hbase.types.RawStringFixedLength;(Ce / (Ce + Ca)) <= 0.3;none;none
+ADR13;DRIFT;org.apache.hadoop.hbase.PrivateCellUtil;(Ce / (Ce + Ca)) <= 0.3;none;none
+ADR13;DRIFT;org.apache.hadoop.hbase.io.encoding.DiffKeyDeltaEncoder;(Ce / (Ce + Ca)) <= 0.3;none;none
+ADR13;DRIFT;org.apache.hadoop.hbase.types.RawInteger;(Ce / (Ce + Ca)) <= 0.3;none;none
+ADR13;DRIFT;org.apache.hadoop.hbase.util.ConcatenatedLists$Iterator;(Ce / (Ce + Ca)) <= 0.3;none;none
+ADR13;DRIFT;org.apache.hadoop.hbase.ByteBufferExtendedCell;(Ce / (Ce + Ca)) <= 0.3;none;none
+ADR13;DRIFT;org.apache.hadoop.hbase.io.encoding.EncodedDataBlock;(Ce / (Ce + Ca)) <= 0.3;none;none
+ADR13;DRIFT;org.apache.hadoop.hbase.util.Triple;(Ce / (Ce + Ca)) <= 0.3;none;none
+ADR13;DRIFT;org.apache.hadoop.hbase.io.crypto.Encryption$Context;(Ce / (Ce + Ca)) <= 0.3;none;none
+ADR13;DRIFT;org.apache.hadoop.hbase.types.CopyOnWriteArrayMap$ArrayEntryIterator;(Ce / (Ce + Ca)) <= 0.3;none;none
+ADR13;DRIFT;org.apache.hadoop.hbase.util.WeakObjectPool$WeakObjectReference;(Ce / (Ce + Ca)) <= 0.3;none;none
+ADR13;DRIFT;org.apache.hadoop.hbase.TagType;(Ce / (Ce + Ca)) <= 0.3;none;none
+ADR13;DRIFT;org.apache.hadoop.hbase.util.CommonFSUtils$StreamCapabilities;(Ce / (Ce + Ca)) <= 0.3;none;none
+ADR13;DRIFT;org.apache.hadoop.hbase.io.crypto.Context;(Ce / (Ce + Ca)) <= 0.3;none;none
+ADR13;DRIFT;org.apache.hadoop.hbase.util.RowColBloomHashKey;(Ce / (Ce + Ca)) <= 0.3;none;none
+ADR13;DRIFT;org.apache.hadoop.hbase.util.Bytes$RowEndKeyComparator;(Ce / (Ce + Ca)) <= 0.3;none;none
+ADR13;DRIFT;org.apache.hadoop.hbase.util.ClassSize;(Ce / (Ce + Ca)) <= 0.3;none;none
+ADR13;DRIFT;org.apache.hadoop.hbase.io.compress.ReusableStreamGzipCodec;(Ce / (Ce + Ca)) <= 0.3;none;none
+ADR13;DRIFT;org.apache.hadoop.hbase.util.ByteBufferArray$BufferCreatorCallable;(Ce / (Ce + Ca)) <= 0.3;none;none
+ADR13;DRIFT;org.apache.hadoop.hbase.util.RetryCounter$RetryConfig;(Ce / (Ce + Ca)) <= 0.3;none;none
+ADR13;DRIFT;org.apache.hadoop.hbase.io.ByteBuffInputStream;(Ce / (Ce + Ca)) <= 0.3;none;none
+ADR13;DRIFT;org.apache.hadoop.hbase.types.CopyOnWriteArrayMap$ArrayHolder;(Ce / (Ce + Ca)) <= 0.3;none;none
+ADR13;DRIFT;org.apache.hadoop.hbase.trace.TraceUtil;(Ce / (Ce + Ca)) <= 0.3;none;none
+ADR13;DRIFT;org.apache.hadoop.hbase.util.ByteBufferArray;(Ce / (Ce + Ca)) <= 0.3;none;none
+ADR13;DRIFT;org.apache.hadoop.hbase.types.StructIterator;(Ce / (Ce + Ca)) <= 0.3;none;none
+ADR13;DRIFT;org.apache.hadoop.hbase.KeyValueBuilder;(Ce / (Ce + Ca)) <= 0.3;none;none
+ADR13;DRIFT;org.apache.hadoop.hbase.ServerName;(Ce / (Ce + Ca)) <= 0.3;none;none
+ADR13;DRIFT;org.apache.hadoop.hbase.io.encoding.RowIndexSeekerV1;(Ce / (Ce + Ca)) <= 0.3;none;none
+ADR13;DRIFT;org.apache.hadoop.hbase.codec.CellCodec;(Ce / (Ce + Ca)) <= 0.3;none;none
+ADR13;DRIFT;org.apache.hadoop.hbase.util.RetryCounter;(Ce / (Ce + Ca)) <= 0.3;none;none
+ADR13;DRIFT;org.apache.hadoop.hbase.types.OrderedBlob;(Ce / (Ce + Ca)) <= 0.3;none;none
+ADR13;DRIFT;org.apache.hadoop.hbase.types.RawStringTerminated;(Ce / (Ce + Ca)) <= 0.3;none;none
+ADR13;DRIFT;org.apache.hadoop.hbase.ServiceNotRunningException;(Ce / (Ce + Ca)) <= 0.3;none;none
+ADR13;DRIFT;org.apache.hadoop.hbase.io.hadoopbackport.ThrottledInputStream;(Ce / (Ce + Ca)) <= 0.3;none;none
+ADR13;DRIFT;org.apache.hadoop.hbase.io.encoding.FastDiffDeltaEncoder$FastDiffSeekerState;(Ce / (Ce + Ca)) <= 0.3;none;none
+ADR13;DRIFT;org.apache.hadoop.hbase.util.AvlUtil$AvlTree;(Ce / (Ce + Ca)) <= 0.3;none;none
+ADR13;DRIFT;org.apache.hadoop.hbase.io.encoding.RowIndexCodecV1;(Ce / (Ce + Ca)) <= 0.3;none;none
+ADR13;DRIFT;org.apache.hadoop.hbase.types.CopyOnWriteArrayMap$ArrayEntrySet;(Ce / (Ce + Ca)) <= 0.3;none;none
+ADR13;DRIFT;org.apache.hadoop.hbase.util.SimplePositionedMutableByteRange;(Ce / (Ce + Ca)) <= 0.3;none;none
+ADR13;DRIFT;org.apache.hadoop.hbase.RawCellBuilderFactory;(Ce / (Ce + Ca)) <= 0.3;none;none
+ADR13;DRIFT;org.apache.hadoop.hbase.PrivateCellUtil$TagRewriteCell;(Ce / (Ce + Ca)) <= 0.3;none;none
+ADR13;DRIFT;org.apache.hadoop.hbase.io.TagCompressionContext;(Ce / (Ce + Ca)) <= 0.3;none;none
+ADR13;DRIFT;org.apache.hadoop.hbase.exceptions.HBaseException;(Ce / (Ce + Ca)) <= 0.3;none;none
+ADR13;DRIFT;org.apache.hadoop.hbase.util.AvlUtil$AvlLinkedNode;(Ce / (Ce + Ca)) <= 0.3;none;none
+ADR13;DRIFT;org.apache.hadoop.hbase.types.OrderedFloat32;(Ce / (Ce + Ca)) <= 0.3;none;none
+ADR13;DRIFT;org.apache.hadoop.hbase.types.OrderedBytesBase;(Ce / (Ce + Ca)) <= 0.3;none;none
+ADR13;DRIFT;org.apache.hadoop.hbase.io.hfile.HFileContextBuilder;(Ce / (Ce + Ca)) <= 0.3;none;none
+ADR13;DRIFT;org.apache.hadoop.hbase.io.crypto.KeyStoreKeyProvider;(Ce / (Ce + Ca)) <= 0.3;none;none
+ADR13;DRIFT;org.apache.hadoop.hbase.nio.ByteBuff;(Ce / (Ce + Ca)) <= 0.3;none;none
+ADR13;DRIFT;org.apache.hadoop.hbase.util.RetryCounter$ExponentialBackoffPolicyWithLimit;(Ce / (Ce + Ca)) <= 0.3;none;none
+ADR13;DRIFT;org.apache.hadoop.hbase.CellComparatorImpl$MetaCellComparator;(Ce / (Ce + Ca)) <= 0.3;none;none
+ADR13;DRIFT;org.apache.hadoop.hbase.util.UnsafeAvailChecker;(Ce / (Ce + Ca)) <= 0.3;none;none
+ADR13;DRIFT;org.apache.hadoop.hbase.ChoreService;(Ce / (Ce + Ca)) <= 0.3;none;none
+ADR13;DRIFT;org.apache.hadoop.hbase.types.CopyOnWriteArrayMap$ArrayKeySet;(Ce / (Ce + Ca)) <= 0.3;none;none
+ADR13;DRIFT;org.apache.hadoop.hbase.util.ByteBufferUtils;(Ce / (Ce + Ca)) <= 0.3;none;none
+ADR13;DRIFT;org.apache.hadoop.hbase.io.encoding.FastDiffDeltaEncoder;(Ce / (Ce + Ca)) <= 0.3;none;none
+ADR13;DRIFT;org.apache.hadoop.hbase.util.Base64$Base64InputStream;(Ce / (Ce + Ca)) <= 0.3;none;none
+ADR13;DRIFT;org.apache.hadoop.hbase.KeyValue$MetaComparator;(Ce / (Ce + Ca)) <= 0.3;none;none
+ADR13;DRIFT;org.apache.hadoop.hbase.util.ObjectPool;(Ce / (Ce + Ca)) <= 0.3;none;none
+ADR13;DRIFT;org.apache.hadoop.hbase.io.encoding.EncodingState;(Ce / (Ce + Ca)) <= 0.3;none;none
+ADR13;DRIFT;org.apache.hadoop.hbase.KeyValueUtil;(Ce / (Ce + Ca)) <= 0.3;none;none
+ADR13;DRIFT;org.apache.hadoop.hbase.io.ImmutableBytesWritable;(Ce / (Ce + Ca)) <= 0.3;none;none
+ADR13;DRIFT;org.apache.hadoop.hbase.io.encoding.CopyKeyDataBlockEncoder$CopyKeyEncodingState;(Ce / (Ce + Ca)) <= 0.3;none;none
+ADR13;DRIFT;org.apache.hadoop.hbase.types.OrderedInt16;(Ce / (Ce + Ca)) <= 0.3;none;none
+ADR13;DRIFT;org.apache.hadoop.hbase.PrivateCellUtil$FirstOnRowByteBufferExtendedCell;(Ce / (Ce + Ca)) <= 0.3;none;none
+ADR13;DRIFT;org.apache.hadoop.hbase.util.CoprocessorClassLoader;(Ce / (Ce + Ca)) <= 0.3;none;none
+ADR13;DRIFT;org.apache.hadoop.hbase.io.encoding.BufferedDataBlockEncoder;(Ce / (Ce + Ca)) <= 0.3;none;none
+ADR13;DRIFT;org.apache.hadoop.hbase.types.OrderedInt32;(Ce / (Ce + Ca)) <= 0.3;none;none
+ADR13;DRIFT;org.apache.hadoop.hbase.PrivateCellUtil$EmptyByteBufferExtendedCell;(Ce / (Ce + Ca)) <= 0.3;none;none
+ADR13;DRIFT;org.apache.hadoop.hbase.util.AbstractHBaseTool;(Ce / (Ce + Ca)) <= 0.3;none;none
+ADR13;DRIFT;org.apache.hadoop.hbase.security.User$TestingGroups;(Ce / (Ce + Ca)) <= 0.3;none;none
+ADR13;DRIFT;org.apache.hadoop.hbase.PrivateCellUtil$TagRewriteByteBufferExtendedCell;(Ce / (Ce + Ca)) <= 0.3;none;none
+ADR13;DRIFT;org.apache.hadoop.hbase.util.Sleeper;(Ce / (Ce + Ca)) <= 0.3;none;none
+ADR13;DRIFT;org.apache.hadoop.hbase.io.encoding.HFileBlockDefaultEncodingContext;(Ce / (Ce + Ca)) <= 0.3;none;none
+ADR13;DRIFT;org.apache.hadoop.hbase.io.crypto.aes.CryptoAES$Integrity;(Ce / (Ce + Ca)) <= 0.3;none;none
+ADR13;DRIFT;org.apache.hadoop.hbase.io.encoding.CopyKeyDataBlockEncoder;(Ce / (Ce + Ca)) <= 0.3;none;none
+ADR13;DRIFT;org.apache.hadoop.hbase.util.EnvironmentEdgeManager;(Ce / (Ce + Ca)) <= 0.3;none;none
+ADR13;DRIFT;org.apache.hadoop.hbase.KeyValue$KeyOnlyKeyValue;(Ce / (Ce + Ca)) <= 0.3;none;none
+ADR13;DRIFT;org.apache.hadoop.hbase.ExtendedCellBuilderImpl;(Ce / (Ce + Ca)) <= 0.3;none;none
+ADR13;DRIFT;org.apache.hadoop.hbase.io.encoding.NoneEncoder;(Ce / (Ce + Ca)) <= 0.3;none;none
+ADR13;DRIFT;org.apache.hadoop.hbase.codec.CellCodecWithTags;(Ce / (Ce + Ca)) <= 0.3;none;none
+ADR13;DRIFT;org.apache.hadoop.hbase.codec.KeyValueCodecWithTags;(Ce / (Ce + Ca)) <= 0.3;none;none
+ADR13;DRIFT;org.apache.hadoop.hbase.util.DNS;(Ce / (Ce + Ca)) <= 0.3;none;none
+ADR13;DRIFT;org.apache.hadoop.hbase.codec.KeyValueCodecWithTags$KeyValueDecoder;(Ce / (Ce + Ca)) <= 0.3;none;none
+ADR13;DRIFT;org.apache.hadoop.hbase.io.crypto.CryptoCipherProvider;(Ce / (Ce + Ca)) <= 0.3;none;none
+ADR13;DRIFT;org.apache.hadoop.hbase.exceptions.IllegalArgumentIOException;(Ce / (Ce + Ca)) <= 0.3;none;none
+ADR13;DRIFT;org.apache.hadoop.hbase.codec.CodecException;(Ce / (Ce + Ca)) <= 0.3;none;none
+ADR13;DRIFT;org.apache.hadoop.hbase.types.RawShort;(Ce / (Ce + Ca)) <= 0.3;none;none
+ADR13;DRIFT;org.apache.hadoop.hbase.NamespaceDescriptor;(Ce / (Ce + Ca)) <= 0.3;none;none
+ADR13;DRIFT;org.apache.hadoop.hbase.util.ExceptionUtil;(Ce / (Ce + Ca)) <= 0.3;none;none
+ADR13;DRIFT;org.apache.hadoop.hbase.io.encoding.DiffKeyDeltaEncoder$DiffSeekerState;(Ce / (Ce + Ca)) <= 0.3;none;none
+ADR13;DRIFT;org.apache.hadoop.hbase.util.PrettyPrinter;(Ce / (Ce + Ca)) <= 0.3;none;none
+ADR13;DRIFT;org.apache.hadoop.hbase.util.ByteArrayHashKey;(Ce / (Ce + Ca)) <= 0.3;none;none
+ADR13;DRIFT;org.apache.hadoop.hbase.util.Bytes$LexicographicalComparerHolder;(Ce / (Ce + Ca)) <= 0.3;none;none
+ADR13;DRIFT;org.apache.hadoop.hbase.util.ImmutableByteArray;(Ce / (Ce + Ca)) <= 0.3;none;none
+ADR13;DRIFT;org.apache.hadoop.hbase.util.AbstractByteRange;(Ce / (Ce + Ca)) <= 0.3;none;none
+ADR13;DRIFT;org.apache.hadoop.hbase.util.Bytes$ByteArrayComparator;(Ce / (Ce + Ca)) <= 0.3;none;none
+ADR13;DRIFT;org.apache.hadoop.hbase.ByteBufferKeyValue;(Ce / (Ce + Ca)) <= 0.3;none;none
+ADR13;DRIFT;org.apache.hadoop.hbase.codec.CellCodec$CellEncoder;(Ce / (Ce + Ca)) <= 0.3;none;none
+ADR13;DRIFT;org.apache.hadoop.hbase.util.ReadOnlyByteRangeException;(Ce / (Ce + Ca)) <= 0.3;none;none
+ADR13;DRIFT;org.apache.hadoop.hbase.PrivateCellUtil$FirstOnRowCell;(Ce / (Ce + Ca)) <= 0.3;none;none
+ADR13;DRIFT;org.apache.hadoop.hbase.BaseConfigurable;(Ce / (Ce + Ca)) <= 0.3;none;none
+ADR13;DRIFT;org.apache.hadoop.hbase.log.HBaseMarkers;(Ce / (Ce + Ca)) <= 0.3;none;none
+ADR13;DRIFT;org.apache.hadoop.hbase.util.ReflectionUtils;(Ce / (Ce + Ca)) <= 0.3;none;none
+ADR13;DRIFT;org.apache.hadoop.hbase.util.VersionInfo;(Ce / (Ce + Ca)) <= 0.3;none;none
+ADR13;DRIFT;org.apache.hadoop.hbase.util.CellHashKey;(Ce / (Ce + Ca)) <= 0.3;none;none
+ADR13;DRIFT;org.apache.hadoop.hbase.util.AvlUtil$AvlIterableList;(Ce / (Ce + Ca)) <= 0.3;none;none
+ADR13;DRIFT;org.apache.hadoop.hbase.util.Base64;(Ce / (Ce + Ca)) <= 0.3;none;none
+ADR13;DRIFT;org.apache.hadoop.hbase.io.util.LRUDictionary;(Ce / (Ce + Ca)) <= 0.3;none;none
+ADR13;DRIFT;org.apache.hadoop.hbase.util.Counter;(Ce / (Ce + Ca)) <= 0.3;none;none
+ADR13;DRIFT;org.apache.hadoop.hbase.codec.BaseEncoder;(Ce / (Ce + Ca)) <= 0.3;none;none
+ADR13;DRIFT;org.apache.hadoop.hbase.util.ClassLoaderBase;(Ce / (Ce + Ca)) <= 0.3;none;none
+ADR13;DRIFT;org.apache.hadoop.hbase.util.AbstractHBaseTool$OptionsOrderComparator;(Ce / (Ce + Ca)) <= 0.3;none;none
+ADR13;DRIFT;org.apache.hadoop.hbase.PrivateCellUtil$ValueAndTagRewriteByteBufferExtendedCell;(Ce / (Ce + Ca)) <= 0.3;none;none
+ADR13;DRIFT;org.apache.hadoop.hbase.types.OrderedInt8;(Ce / (Ce + Ca)) <= 0.3;none;none
+ADR13;DRIFT;org.apache.hadoop.hbase.PrivateCellUtil$FirstOnRowColByteBufferExtendedCell;(Ce / (Ce + Ca)) <= 0.3;none;none
+ADR13;DRIFT;org.apache.hadoop.hbase.util.SoftObjectPool;(Ce / (Ce + Ca)) <= 0.3;none;none
+ADR13;DRIFT;org.apache.hadoop.hbase.util.JRubyFormat;(Ce / (Ce + Ca)) <= 0.3;none;none
+ADR13;DRIFT;org.apache.hadoop.hbase.io.hfile.HFileContext;(Ce / (Ce + Ca)) <= 0.3;none;none
+ADR13;DRIFT;org.apache.hadoop.hbase.codec.KeyValueCodec$ByteBuffKeyValueDecoder;(Ce / (Ce + Ca)) <= 0.3;none;none
+ADR13;DRIFT;org.apache.hadoop.hbase.util.Addressing;(Ce / (Ce + Ca)) <= 0.3;none;none
+ADR13;DRIFT;org.apache.hadoop.hbase.util.ClassSize$UnsafeLayout$HeaderSize;(Ce / (Ce + Ca)) <= 0.3;none;none
+ADR13;DRIFT;org.apache.hadoop.hbase.util.Classes;(Ce / (Ce + Ca)) <= 0.3;none;none
+ADR13;DRIFT;org.apache.hadoop.hbase.util.Counter$Cell;(Ce / (Ce + Ca)) <= 0.3;none;none
+ADR13;DRIFT;org.apache.hadoop.hbase.ScheduledChore;(Ce / (Ce + Ca)) <= 0.3;none;none

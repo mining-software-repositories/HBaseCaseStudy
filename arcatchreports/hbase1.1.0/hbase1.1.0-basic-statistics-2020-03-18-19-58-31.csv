@@ -1,0 +1,12 @@
+Project Name;HBase
+Project Source Path;./HBase/HBase_1.1.0/hbase-common/src/main/java
+Number of Units;232
+Number of Exceptions;5
+Lines of Code;31575.0
+Catch Block Lines of Code;351.0
+Overall Number of Rules;16
+Overall Number of Passing Rules;12
+Number of Anti-Drift Rules;16
+Number of Anit-Drift Passing Rules;12
+Number of Anti-Erosion Rules;0
+Number of Anti-Erosion Passing Rules;0
